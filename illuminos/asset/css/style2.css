@@ -1,0 +1,90 @@
+h1{
+    font-size: 30px;
+    color: #ffffff;
+}
+.film_info p{
+font-size: 30px;
+color: #fff;
+padding-left: 40px;
+}
+.opisanie{
+    display: flex;
+    margin-left: 100px;
+   
+}
+.block_onfo{
+    margin-left: 100px;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.actors{
+    margin: 0;
+}
+.trailer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.input-box {
+    height: 50px; /* по сути задаем высоту input'а */
+    width: 1072px; /* ширина на всю ширину правой колонки (с учетом padding) */
+    margin-bottom: 20px; /* отступаем снизу 20px */
+  }
+  
+  /* Стили для input и textarea (поле сообщение) */
+  .input-box input,
+  .input-box textarea {
+    height: 100%; /* растягиваем на всю высоту контейнера 50px */
+    width: 100%; /* растягиваем на всю ширину */
+    border: none; /* убираем внешние края */
+    border-radius: 5px; /* скругляем края */
+    background: #f0f1f8; /* задаем цвет фона */
+    padding: 0 20px; /* отступ справа и слева 20px */
+  }
+  
+  /* Отдельно стилизуем поле сообщение */
+  .input-box textarea {
+    resize: none; /* чтобы нельзя было менять высоту */
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Это контейнер для поля сообщение */
+  .message-box {
+    min-height: 110px; /* минимальная высота 110px */
+  }
+  
+  /* Стили для контейнера кнопки */
+  .button {
+    display: inline-block; /* делаем блочно-строчный элемент */
+  }
+  
+  /* Стили для самой кнопки */
+  .button input[type="button"] {
+    color: #fff;
+    font-size: 18px;
+    background: #3e2093;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
+  }
+  
+  /* Меняем цвет фона при наведении на кнопку */
+  .button input[type="button"]:hover {
+    background: rgb(0, 0, 207);
+  }
+  form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    display: flex;
+    margin-left: 50px;
+  }

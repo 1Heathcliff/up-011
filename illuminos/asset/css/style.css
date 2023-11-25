@@ -1,0 +1,197 @@
+
+
+.page-title{
+text-align: center;
+}
+ /* стилизация слайдера */
+.slider-container {
+  position: relative;
+  width: 1468px;
+  height: 791px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+ /* указываем размер слайдера*/
+.slider img {
+  width: 1468px;
+  height: 791px;
+  object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+
+
+
+body{
+    background-color:#021450 ;
+    
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+nav{
+    padding: 30px;
+}
+ /* стилизация шапки */
+.main__logo{
+    font-size: 64;
+    font-weight: 700;
+}
+button{
+    width: 229px;
+    height: 54px;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-left: 20px;
+}
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.logo h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+.logo p{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+.logo{
+    margin-left: 50px;
+}
+.line{
+        width: 100%;
+        height: 3px;
+        background-color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.line1{
+    display: flex;
+    margin-left: 80px;
+}
+.object{
+    margin-left: 20px;
+}
+h2{
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+h3{
+    font-size: 32px;
+    color: white;
+    margin-left: 100px;
+}
+.object p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.row{
+    margin-left: 40px;
+}
+footer{
+    display: flex;
+   
+}
+.line2 p{
+    margin: 10px;
+}
+.line2{
+    color: white;
+    font-size: 32px;
+    margin-left: 130px;
+
+}
+.categoryy__block{
+    margin: 0;
+
+    width: 180px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-left: 27px;
+    margin-right: 25px;
+   
+}
+.categoryy__block p{
+    color: #021450 ;
+   margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+.line3{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+.zhanr{
+    margin-left: 40px;
+}
+
+h4{
+  color: #fff;
+  font-size: 50px ;  
+  margin: 0;
+}
+
+h1{
+    font-size: 30px;
+    color: #ffffff;
+}
+.film_info p{
+font-size: 30px;
+color: #fff;
+}
+.opisanie{
+    display: flex;
+    margin-left: 100px;
+}
+
+
+  .buttons{
+    margin-left: 50px;
+  }
